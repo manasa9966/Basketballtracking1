@@ -1,9 +1,9 @@
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { environment } from 'src/environments/environment';
 import { TeamListResponse } from '../interfaces/teams.dto';
 import { GamesResponse } from '../interfaces/game.dto';
+import { environment } from '../../environments/environment';
 
 @Injectable()
 export class TeamsApiService {
